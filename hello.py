@@ -23,7 +23,7 @@ cursor.execute(sql)
 sql = 'show tables;'
 cursor.execute(sql)
 print("显示创建的表：", cursor.fetchall())
-
+#实验
 # 显示表的结构
 sql = 'desc {}'.format(table_name)
 cursor.execute(sql)
